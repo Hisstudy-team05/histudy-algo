@@ -78,7 +78,7 @@ public class Main {
                 }
             }
             if (group.size() == 1) {
-                visitedStudents.remove(visitedStudents.size() - 1);
+                visitedStudents.remove(studentId); //modified
             }
 
             // Add the group to the study groups list
