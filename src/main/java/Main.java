@@ -24,7 +24,7 @@ public class Main {
 
         Set<Integer> visitedStudents = new HashSet<>();
 
-        for (Map.Entry<Integer, List<String>> entry : students.entrySet()) {
+        for (Map.Entry<Integer, List<String>> entry : students.entrySet()) { //when starting second matching, use studyGroups instead students ->not implemented
             int studentId = entry.getKey();
             if (visitedStudents.contains(studentId)) {
                 continue; // Skip if the student is already assigned to a group
