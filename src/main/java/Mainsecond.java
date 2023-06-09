@@ -330,7 +330,7 @@ public class Mainsecond {
         return false;
     }
 
-    static boolean match_2subject(List<String> currentSubjects, List<String> innerSubjects) {
+    static boolean match_2subject(List<String> currentSubjects, List<String> innerSubjects) {//
 
 
 
